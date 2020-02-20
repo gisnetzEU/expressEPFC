@@ -1,0 +1,9 @@
+R:\express>cd l20-generator
+R:\express\l20-generator>npm install express-generator -g
+R:\express\l20-generator>C:\Users\1010gimonterogonzale\AppData\Roaming\npm\express --
+4.16.1
+R:\express\l20-generator>C:\Users\1010gimonterogonzale\AppData\Roaming\npm\express.cm
+
+R:\express\l20-generator>express --view=pug myapp
+
+R:\express\l20-generator>C:\Users\1010gimonterogonzale\AppData\Roaming\npm\express --
