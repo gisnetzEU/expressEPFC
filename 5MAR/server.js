@@ -44,6 +44,8 @@ app.post('/user', (req, res) => {
     res.send('Post received');
 })
 
+//put //users[index] = ...
+//delete //users.slice(index,1)
 app.use(express.static('public'));
 
 app.use('/', (req, res) => res.send('ok'));
