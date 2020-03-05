@@ -1,3 +1,5 @@
+//http://localhost:3000/user
+
 const users = [
     {
         name: "Mathilde",
@@ -20,11 +22,17 @@ app.get('form.html', (req, res) =>{
     res.send('public\form.html');
 })
 */
+
+app.get('/user/:id', (req, res) =>{
+    console.log('HTTP REQUEST GET on resource user/'+req.params.id);
+    res.send('h1');
+})
 app.get('/user', (req, res) => {
     console.log('HTTP REQUEST GET on resource user');
     //res.send('liste de utilisaters<br>'+JSON.stringify(users));
     //res.send(JSON.stringify(users));
     res.send({users: users});
+    
 })
 
 app.post('/user', (req, res) => {
